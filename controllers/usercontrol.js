@@ -5,6 +5,7 @@ exports.user = function( req , res){
 res.render("index",
  {
         nav:[ { link:"/users/books",title: "book" } , 
+        {link:"/users/author" , title: "Author" } ,
         {link:"/users/author" , title: "Author" } ]
 
  }
